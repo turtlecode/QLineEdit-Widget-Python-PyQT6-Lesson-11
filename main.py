@@ -13,7 +13,7 @@ class MainWindow(QMainWindow):
 
         self.nameLabel = QLabel(self)
         self.resultLabel = QLabel(self)
-        self.nameLabel.setText('Name:')
+        self.nameLabel.setText('Text :')
         self.line = QLineEdit(self)
 
         self.line.move(80, 20)
